@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.png" width="90%" />
+  <img src="IAM git.png" width="90%" />
 </p>
 # IAM Governance Lab
 
@@ -141,4 +141,5 @@ AI Security & IAM – exploring the intersection of identity, access, and modern
 ```text
 fastapi
 uvicorn
+
 
