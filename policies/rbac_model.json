@@ -1,0 +1,25 @@
+{
+  "department_to_role": {
+    "HR": "HR-Analyst",
+    "Security": "Security-Admin",
+    "Engineering": "Employee",
+    "Sales": "Employee"
+  },
+  "role_permissions": {
+    "Employee": [
+      "read_own_profile"
+    ],
+    "HR-Analyst": [
+      "read_own_profile",
+      "view_hr_data",
+      "edit_employee_records"
+    ],
+    "Security-Admin": [
+      "read_own_profile",
+      "view_logs",
+      "manage_identities",
+      "configure_policies"
+    ]
+  }
+}
+

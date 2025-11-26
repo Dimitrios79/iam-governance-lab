@@ -1,0 +1,31 @@
+[
+  {
+    "name": "HR data access",
+    "description": "Only HR department users can access HR-System with view_hr_data permission.",
+    "conditions": {
+      "department": "HR",
+      "app": "HR-System",
+      "permission": "view_hr_data"
+    },
+    "effect": "allow"
+  },
+  {
+    "name": "Security admin console",
+    "description": "Only Security-Admin role can access IAM-Console.",
+    "conditions": {
+      "role": "Security-Admin",
+      "app": "IAM-Console"
+    },
+    "effect": "allow"
+  },
+  {
+    "name": "Deny high-risk permissions to non-privileged roles",
+    "description": "Deny manage_identities to any role other than Security-Admin.",
+    "conditions": {
+      "permission": "manage_identities",
+      "role_not": "Security-Admin"
+    },
+    "effect": "deny"
+  }
+]
+

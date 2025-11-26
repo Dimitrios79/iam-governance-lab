@@ -1,0 +1,44 @@
+[
+  {
+    "id": "00000000-0000-0000-0000-000000000001",
+    "userName": "admin",
+    "displayName": "Admin User",
+    "email": "admin@example.com",
+    "department": "Security",
+    "active": true,
+    "groups": []
+  },
+  {
+    "id": "d87cdbc4-6788-4a8e-94c8-bd28a9fe16c8",
+    "userName": "alice.hr",
+    "displayName": "Alice HR",
+    "email": "alice.hr@example.com",
+    "department": "HR",
+    "active": true,
+    "groups": [
+      "HR-Analyst"
+    ]
+  },
+  {
+    "id": "b1b2f8bf-9cd1-4a1a-be53-49385045fb49",
+    "userName": "bob.sec",
+    "displayName": "Bob Sec",
+    "email": "bob.sec@example.com",
+    "department": "Security",
+    "active": true,
+    "groups": [
+      "Security-Admin"
+    ]
+  },
+  {
+    "id": "f35be5af-3840-4176-9ca9-a635b9752093",
+    "userName": "charlie.eng",
+    "displayName": "Charlie Eng",
+    "email": "charlie.eng@example.com",
+    "department": "Engineering",
+    "active": true,
+    "groups": [
+      "Employee"
+    ]
+  }
+]

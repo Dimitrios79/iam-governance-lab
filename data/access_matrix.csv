@@ -1,0 +1,11 @@
+user_id,role,permission
+E001,HR-Analyst,read_own_profile
+E001,HR-Analyst,view_hr_data
+E001,HR-Analyst,edit_employee_records
+E002,Security-Admin,read_own_profile
+E002,Security-Admin,view_logs
+E002,Security-Admin,manage_identities
+E002,Security-Admin,configure_policies
+E003,Employee,read_own_profile
+E003,Employee,view_logs
+

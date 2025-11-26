@@ -1,0 +1,22 @@
+{
+  "roles": {
+    "Employee": {
+      "apps": ["Email", "Intranet"],
+      "permissions": ["read_own_profile"]
+    },
+    "HR-Analyst": {
+      "apps": ["HR-System", "Intranet"],
+      "permissions": ["view_hr_data", "edit_employee_records"]
+    },
+    "Security-Admin": {
+      "apps": ["SIEM", "IAM-Console", "Intranet"],
+      "permissions": ["manage_identities", "view_logs", "configure_policies"]
+    }
+  },
+  "high_risk_permissions": [
+    "manage_identities",
+    "edit_employee_records",
+    "view_hr_data"
+  ]
+}
+

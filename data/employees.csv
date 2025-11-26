@@ -1,0 +1,7 @@
+employee_id,displayName,email,department,status
+E001,Alice HR,alice.hr@example.com,HR,NEW
+E002,Bob Sec,bob.sec@example.com,Security,NEW
+E003,Charlie Eng,charlie.eng@example.com,Engineering,NEW
+E004,Diana Move,diana.move@example.com,Engineering,MOVE
+E005,Eva Leave,eva.leave@example.com,HR,LEAVE
+

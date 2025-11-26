@@ -1,0 +1,13 @@
+[
+  {
+    "id": "10000000-0000-0000-0000-000000000001",
+    "displayName": "Security-Admins",
+    "members": []
+  },
+  {
+    "id": "10000000-0000-0000-0000-000000000002",
+    "displayName": "HR-Users",
+    "members": []
+  }
+]
+
