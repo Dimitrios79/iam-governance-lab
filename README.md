@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="banner.png" width="90%" />
+</p>
 # IAM Governance Lab
 
 A small hands-on lab focused on **Identity & Access Management (IAM)** concepts:
@@ -138,3 +141,4 @@ AI Security & IAM – exploring the intersection of identity, access, and modern
 ```text
 fastapi
 uvicorn
+
