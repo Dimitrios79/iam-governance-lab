@@ -134,12 +134,5 @@ Created as a learning lab by Dimitrios Kallimanis
 AI Security & IAM – exploring the intersection of identity, access, and modern systems.
 
 
----
-
-## 📦 2. `requirements.txt`
-
-```text
-fastapi
-uvicorn
 
 
